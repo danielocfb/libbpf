@@ -13,7 +13,7 @@ read_lists() {
 		if [[ -s "$path" ]]; then
 			cat "$path"
 		fi;
-	done) | cut -d'#' -f1 | tr -s ' \t\n' ','
+	done) | cut -d'#' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | tr -s '\t\n' ','
 }
 
 test_progs() {

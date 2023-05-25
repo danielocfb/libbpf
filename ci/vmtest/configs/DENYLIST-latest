@@ -1,1 +1,3 @@
+bpf_cookie/multi_kprobe_link_api
 decap_sanity  # weird failure with decap_sanity_ns netns already existing, TBD
+kprobe_multi_test

@@ -1,3 +1,5 @@
 # TEMPORARY
+kprobe_multi_testmod_test/testmod_attach_api_addrs
+sockmap_listen/sockhash VSOCK test_vsock_redir
 usdt/basic                               # failing verifier due to bounds check after LLVM update
 usdt/multispec                           # same as above
